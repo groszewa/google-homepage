@@ -16,6 +16,8 @@ div div {
 	width:220px;height:100px;
 	top:32px;
 	border-radius: 110px 110px 0 0;
+
+	-webkit-transition: all 0.1s ease-in;
 }
 
 .l_eye, .r_eye {
@@ -60,6 +62,7 @@ div div {
 .l_arm, .r_arm, .l_leg, .r_leg {
 	width:50px;
 	position:absolute;
+	-webkit-transition: all 0.1s ease-in;
 }
 
 .l_arm, .r_arm {
